@@ -1,1 +1,1 @@
-ajuiji buenas tardes
+ buenas waji tardes
