@@ -15,7 +15,11 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+from django1Cesar.views import home,inicio,iva
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('', home),
+    path('inicio/', inicio),
+    path('calc/<int:cant>-<int:precio>', iva)
 ]
